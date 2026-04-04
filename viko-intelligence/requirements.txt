@@ -1,0 +1,14 @@
+# requirements.txt
+# Core de la API y Servidor
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6  # Estrictamente necesario para que FastAPI procese archivos (UploadFile)
+pydantic>=2.0.0
+
+# Procesamiento de Datos
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.2          # Motor necesario para que Pandas pueda leer archivos .xlsx
+
+# Machine Learning
+scikit-learn>=1.3.0
